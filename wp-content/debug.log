@@ -1,0 +1,27 @@
+[14-Oct-2022 02:56:49 UTC] 22
+[14-Oct-2022 02:58:56 UTC] 22
+[14-Oct-2022 02:59:11 UTC] 22
+[14-Oct-2022 02:59:20 UTC] 22
+[14-Oct-2022 02:59:25 UTC] 22
+[14-Oct-2022 02:59:25 UTC] 12
+[14-Oct-2022 02:59:25 UTC] 13
+[14-Oct-2022 02:59:25 UTC] 2
+[14-Oct-2022 02:59:27 UTC] 13
+[14-Oct-2022 03:00:09 UTC] 13
+[14-Oct-2022 03:00:20 UTC] 13
+[14-Oct-2022 03:00:34 UTC] 13
+[14-Oct-2022 03:00:42 UTC] 13
+[14-Oct-2022 03:03:19 UTC] PHP Warning:  exif_read_data(shutterstock_457069951.jpg): Incorrect APP1 Exif Identifier Code in C:\xampp\htdocs\quangcao\wp-admin\includes\image.php on line 846
+[14-Oct-2022 03:03:19 UTC] PHP Warning:  exif_read_data(shutterstock_457069951.jpg): Incorrect APP1 Exif Identifier Code in C:\xampp\htdocs\quangcao\wp-admin\includes\image.php on line 846
+[14-Oct-2022 03:03:27 UTC] 13
+[14-Oct-2022 03:04:02 UTC] 13
+[14-Oct-2022 03:04:08 UTC] 13
+[14-Oct-2022 03:04:50 UTC] 13
+[14-Oct-2022 03:09:03 UTC] 13
+[14-Oct-2022 03:09:59 UTC] 13
+[14-Oct-2022 03:11:06 UTC] 13
+[14-Oct-2022 03:11:48 UTC] 13
+[14-Oct-2022 03:12:06 UTC] 13
+[14-Oct-2022 03:13:04 UTC] 13
+[14-Oct-2022 03:13:06 UTC] 13
+[14-Oct-2022 03:17:19 UTC] 13

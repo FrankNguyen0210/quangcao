@@ -1,0 +1,19 @@
+.ads_wrapper {
+    display:flex;
+    align-items: center;
+    gap: 30px;
+    background: #f5f5f5;
+    border: 1px solid #fcf0d0;
+}
+.ads_thumb, .ads_content {
+    width: 50%;
+}
+.ads_thumb img, .ads_banner {
+    width: 100%;
+}
+.ads_title {
+    font-weight: 700;
+}
+.ads_content {
+    background: #f5f5f5;
+}
