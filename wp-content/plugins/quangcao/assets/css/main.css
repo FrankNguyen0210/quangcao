@@ -12,10 +12,13 @@
 .ads_content {
     padding: 10px 5px;
 }
-.ads_thumb img, .ads_banner {
+.ads_thumb img, .ads_banner, .ads_banner_mobile {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+.ads_banner_mobile {
+    display: none;
 }
 .ads_title {
     font-weight: 700;
@@ -51,5 +54,11 @@
     }
     .ads_content {
         padding: 10px 5px;
+    }
+    .ads_banner {
+        display: none;
+    }
+    .ads_banner_mobile {
+        display: block;
     }
 }

@@ -76,7 +76,8 @@ function diva_render_ads_content ($ads_id) {
     }
     else {
         $ads_image = get_field('ads_image', $ads_id);
-        $html .= '<div class="ads_wrapper"><img src="'.$ads_image.'" class="ads_banner"/><a href="'.$link_ads.'" class="readmore_link">Click Xem ></a><span class="btn-close">X</span></div>';
+        $ads_image_mobile = get_field('ads_image_mobile', $ads_id);
+        $html .= '<div class="ads_wrapper"><img src="'.$ads_image.'" class="ads_banner" /><img src="'.$ads_image_mobile.'" class="ads_banner_mobile"/><a href="'.$link_ads.'" class="readmore_link">Click Xem ></a><span class="btn-close">X</span></div>';
     }
     return $html;
 }
@@ -153,7 +154,7 @@ function diva_add_ads ($content) {
                 $content = prefix_insert_after_paragraph($quangcao1, rand(1,$count_paragraphs/3), $content);
                 if (isset($list_ads[1])) {
                     $quangcao2 = diva_render_ads_content($list_ads[1]);
-                    $content = prefix_insert_after_paragraph($quangcao2, rand($count_paragraphs/3 + 1,$count_paragraphs/2) , $content);
+                    $content = prefix_insert_after_paragraph($quangcao2, rand($count_paragraphs/3 + 1, $count_paragraphs/2) , $content);
                 }
                 if (isset($list_ads[2])) {
                     $quangcao3 = diva_render_ads_content($list_ads[2]);
