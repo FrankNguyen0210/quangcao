@@ -15,6 +15,9 @@ function diva_enqueue_scripts() {
     $plugin_url = plugin_dir_url( __FILE__ );
     if (is_single() && !is_admin()) {
         wp_enqueue_style( 'style',  $plugin_url . "/assets/css/main.css");
+        wp_deregister_script('jquery');
+	    wp_enqueue_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js', array(), null, true);
+        wp_enqueue_script('ads_main',  $plugin_url . "/assets/js/main.js", array(), null, true);
     }
 }
 
@@ -64,21 +67,28 @@ function diva_render_ads_content ($ads_id) {
         $link_ads = get_field('link_ads', $ads_id);
         $html .= '<div class="ads_wrapper">';
         $html .= '<div class="ads_thumb"><img src="'.$post_thumnail_url.'"/></div>';
-        $html .= '<div class="ads_content"><div class="ads_title">'.$title.'</div><div>'.$post_excerpts.'</div><a href="'.$link_ads.'">Click Xem ></a></div>';
-        $html .= '</div>';
+        $html .= '<div class="ads_content">';
+        $html .= '<div class="ads_title">'.$title.'</div>';
+        $html .= '<div>'.$post_excerpts.'</div>';
+        $html .= '<a href="'.$link_ads.'" class="readmore_link">Click Xem</a>';
+        $html .= '<span class="btn-close">X</span>';
+        $html .= '</div></div>';
     }
     else {
         $ads_image = get_field('ads_image', $ads_id);
-        $html .= '<div class="ads_wrapper"><img src="'.$ads_image.'" class="ads_banner"/></div>';
+        $ads_image_mobile = get_field('ads_image_mobile', $ads_id);
+        $html .= '<div class="ads_wrapper"><img src="'.$ads_image.'" class="ads_banner" /><img src="'.$ads_image_mobile.'" class="ads_banner_mobile"/><a href="'.$link_ads.'" class="readmore_link">Click Xem ></a><span class="btn-close">X</span></div>';
     }
     return $html;
 }
 function diva_add_ads ($content) { 
     global $post;
+    $post_title = get_the_title($post->ID);
     $quangcao_args = array (
         'post_type' => 'quangcao',
         'orderby'        => 'rand',
-        'posts_per_page' => 3, 
+        'posts_per_page' => -1, 
+        'status'         => 'publish',
         'meta_query' => array(
             'relation' => 'OR', 
             array(
@@ -92,10 +102,9 @@ function diva_add_ads ($content) {
     $closing_p = '</p>';
     $paragraphs = explode( $closing_p, $content );
     $count_paragraphs = count($paragraphs);
-    error_log($count_paragraphs);
     if ($quangcaos) {
         $quangcao1 = diva_render_ads_content($quangcaos[0]->ID);
-       
+        
         if (get_field('ads_display_type', 'option') == 'Default') {
             $content = prefix_insert_after_paragraph($quangcao1, rand(1,$count_paragraphs/3), $content);
             if (isset($quangcaos[1])) {
@@ -106,7 +115,8 @@ function diva_add_ads ($content) {
                 $quangcao3 = diva_render_ads_content($quangcaos[2]->ID);
                 $content = prefix_insert_after_paragraph($quangcao3, rand($count_paragraphs/2 + 1,($count_paragraphs -1)) , $content);
             }   
-        } else if(get_field('ads_display_type', 'option') == 'Order') {
+        }
+        if(get_field('ads_display_type', 'option') == 'Order') {
             $ads1_position = get_field('ads_1_position', 'option');
             $content = prefix_insert_after_paragraph($quangcao1, $ads1_position, $content);
             if (isset($quangcaos[1])) {
@@ -120,10 +130,39 @@ function diva_add_ads ($content) {
                 $content = prefix_insert_after_paragraph($quangcao3, $ads3_position , $content);
             }   
         }
-        
-       
-        
-    }
+        if (get_field('ads_display_type', 'option') == 'By Keyword') {
+            $has_keyword = false;
+            $list_ads = array();
+            foreach($quangcaos as $quangcao) {
+                $quangcao_id = $quangcao->ID;
+                $ads_keyword = get_field('list_keyword', $quangcao_id);
+                if($ads_keyword) {
+                    $list_keyword = explode(',', $ads_keyword);
+                    foreach ($list_keyword as $keyword) {
+                        $strpos = strpos(strtolower($post_title), strtolower($keyword));
+                        if ($strpos != '') {
+                            $has_keyword = true;
+                        }
+                    }
+                    if ($has_keyword == true) {
+                        $list_ads[] = $quangcao_id;
+                    }
+                }
+            }
+            if (count($list_ads) > 0) {
+                $quangcao1 = diva_render_ads_content($list_ads[0]);
+                $content = prefix_insert_after_paragraph($quangcao1, rand(1,$count_paragraphs/3), $content);
+                if (isset($list_ads[1])) {
+                    $quangcao2 = diva_render_ads_content($list_ads[1]);
+                    $content = prefix_insert_after_paragraph($quangcao2, rand($count_paragraphs/3 + 1, $count_paragraphs/2) , $content);
+                }
+                if (isset($list_ads[2])) {
+                    $quangcao3 = diva_render_ads_content($list_ads[2]);
+                    $content = prefix_insert_after_paragraph($quangcao3, rand($count_paragraphs/2 + 1,($count_paragraphs -1)) , $content);
+                }   
+            }
+        }
+    }   
     wp_reset_query();
     return $content;
 }
