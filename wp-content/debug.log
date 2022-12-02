@@ -1,376 +1,196 @@
-[17-Nov-2022 02:50:34 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "change_pd_admin_settings_page_callback" not found or invalid function name in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php:307
+[26-Nov-2022 01:26:00 UTC] PHP Warning:  Undefined array key 56 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[26-Nov-2022 01:26:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function render_comment_form() in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\single.php:109
 Stack trace:
-#0 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
-#1 C:\xampp\htdocs\quangcao\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
-#2 C:\xampp\htdocs\quangcao\wp-admin\admin.php(259): do_action('settings_page_c...')
-#3 C:\xampp\htdocs\quangcao\wp-admin\options-general.php(10): require_once('C:\\xampp\\htdocs...')
-#4 {main}
-  thrown in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php on line 307
-[17-Nov-2022 02:51:47 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "change_pd_admin_settings_page_callback" not found or invalid function name in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php:307
-Stack trace:
-#0 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
-#1 C:\xampp\htdocs\quangcao\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
-#2 C:\xampp\htdocs\quangcao\wp-admin\admin.php(259): do_action('settings_page_c...')
-#3 C:\xampp\htdocs\quangcao\wp-admin\options-general.php(10): require_once('C:\\xampp\\htdocs...')
-#4 {main}
-  thrown in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php on line 307
-[17-Nov-2022 02:56:42 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "change_pd_admin_settings_page_callback" not found or invalid function name in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php:307
-Stack trace:
-#0 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
-#1 C:\xampp\htdocs\quangcao\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
-#2 C:\xampp\htdocs\quangcao\wp-admin\admin.php(259): do_action('settings_page_c...')
-#3 C:\xampp\htdocs\quangcao\wp-admin\options-general.php(10): require_once('C:\\xampp\\htdocs...')
-#4 {main}
-  thrown in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php on line 307
-[17-Nov-2022 02:56:43 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "change_pd_admin_settings_page_callback" not found or invalid function name in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php:307
-Stack trace:
-#0 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
-#1 C:\xampp\htdocs\quangcao\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
-#2 C:\xampp\htdocs\quangcao\wp-admin\admin.php(259): do_action('settings_page_c...')
-#3 C:\xampp\htdocs\quangcao\wp-admin\options-general.php(10): require_once('C:\\xampp\\htdocs...')
-#4 {main}
-  thrown in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php on line 307
-[17-Nov-2022 02:56:44 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "change_pd_admin_settings_page_callback" not found or invalid function name in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php:307
-Stack trace:
-#0 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
-#1 C:\xampp\htdocs\quangcao\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
-#2 C:\xampp\htdocs\quangcao\wp-admin\admin.php(259): do_action('settings_page_c...')
-#3 C:\xampp\htdocs\quangcao\wp-admin\options-general.php(10): require_once('C:\\xampp\\htdocs...')
-#4 {main}
-  thrown in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php on line 307
-[17-Nov-2022 02:56:45 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "change_pd_admin_settings_page_callback" not found or invalid function name in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php:307
-Stack trace:
-#0 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
-#1 C:\xampp\htdocs\quangcao\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
-#2 C:\xampp\htdocs\quangcao\wp-admin\admin.php(259): do_action('settings_page_c...')
-#3 C:\xampp\htdocs\quangcao\wp-admin\options-general.php(10): require_once('C:\\xampp\\htdocs...')
-#4 {main}
-  thrown in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php on line 307
-[17-Nov-2022 02:57:00 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "change_pd_admin_settings_page_callback" not found or invalid function name in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php:307
-Stack trace:
-#0 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
-#1 C:\xampp\htdocs\quangcao\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
-#2 C:\xampp\htdocs\quangcao\wp-admin\admin.php(259): do_action('settings_page_c...')
-#3 C:\xampp\htdocs\quangcao\wp-admin\options-general.php(10): require_once('C:\\xampp\\htdocs...')
-#4 {main}
-  thrown in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php on line 307
-[17-Nov-2022 03:03:47 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "change_pd_admin_settings_page_callback" not found or invalid function name in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php:307
-Stack trace:
-#0 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
-#1 C:\xampp\htdocs\quangcao\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
-#2 C:\xampp\htdocs\quangcao\wp-admin\admin.php(259): do_action('settings_page_c...')
-#3 C:\xampp\htdocs\quangcao\wp-admin\options-general.php(10): require_once('C:\\xampp\\htdocs...')
-#4 {main}
-  thrown in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php on line 307
-[17-Nov-2022 03:03:48 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "change_pd_admin_settings_page_callback" not found or invalid function name in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php:307
-Stack trace:
-#0 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
-#1 C:\xampp\htdocs\quangcao\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
-#2 C:\xampp\htdocs\quangcao\wp-admin\admin.php(259): do_action('settings_page_c...')
-#3 C:\xampp\htdocs\quangcao\wp-admin\options-general.php(10): require_once('C:\\xampp\\htdocs...')
-#4 {main}
-  thrown in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php on line 307
-[17-Nov-2022 03:03:49 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "change_pd_admin_settings_page_callback" not found or invalid function name in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php:307
-Stack trace:
-#0 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
-#1 C:\xampp\htdocs\quangcao\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
-#2 C:\xampp\htdocs\quangcao\wp-admin\admin.php(259): do_action('settings_page_c...')
-#3 C:\xampp\htdocs\quangcao\wp-admin\options-general.php(10): require_once('C:\\xampp\\htdocs...')
-#4 {main}
-  thrown in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php on line 307
-[17-Nov-2022 03:03:51 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "change_pd_admin_settings_page_callback" not found or invalid function name in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php:307
-Stack trace:
-#0 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
-#1 C:\xampp\htdocs\quangcao\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
-#2 C:\xampp\htdocs\quangcao\wp-admin\admin.php(259): do_action('settings_page_c...')
-#3 C:\xampp\htdocs\quangcao\wp-admin\options-general.php(10): require_once('C:\\xampp\\htdocs...')
-#4 {main}
-  thrown in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php on line 307
-[17-Nov-2022 03:05:15 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "change_pd_admin_settings_page_callback" not found or invalid function name in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php:307
-Stack trace:
-#0 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
-#1 C:\xampp\htdocs\quangcao\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
-#2 C:\xampp\htdocs\quangcao\wp-admin\admin.php(259): do_action('settings_page_c...')
-#3 C:\xampp\htdocs\quangcao\wp-admin\options-general.php(10): require_once('C:\\xampp\\htdocs...')
-#4 {main}
-  thrown in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php on line 307
-[17-Nov-2022 03:10:54 UTC] PHP Notice:  Function add_submenu_page was called <strong>incorrectly</strong>. The seventh parameter passed to <code>add_submenu_page()</code> should be numeric representing menu position. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.3.0.) in C:\xampp\htdocs\quangcao\wp-includes\functions.php on line 5831
-[17-Nov-2022 03:11:42 UTC] PHP Notice:  Function add_submenu_page was called <strong>incorrectly</strong>. The seventh parameter passed to <code>add_submenu_page()</code> should be numeric representing menu position. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.3.0.) in C:\xampp\htdocs\quangcao\wp-includes\functions.php on line 5831
-[17-Nov-2022 03:11:43 UTC] PHP Notice:  Function add_submenu_page was called <strong>incorrectly</strong>. The seventh parameter passed to <code>add_submenu_page()</code> should be numeric representing menu position. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.3.0.) in C:\xampp\htdocs\quangcao\wp-includes\functions.php on line 5831
-[17-Nov-2022 03:11:54 UTC] PHP Notice:  Function add_submenu_page was called <strong>incorrectly</strong>. The seventh parameter passed to <code>add_submenu_page()</code> should be numeric representing menu position. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.3.0.) in C:\xampp\htdocs\quangcao\wp-includes\functions.php on line 5831
-[17-Nov-2022 03:11:55 UTC] PHP Notice:  Function add_submenu_page was called <strong>incorrectly</strong>. The seventh parameter passed to <code>add_submenu_page()</code> should be numeric representing menu position. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.3.0.) in C:\xampp\htdocs\quangcao\wp-includes\functions.php on line 5831
-[17-Nov-2022 03:13:34 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "change_publish_date_template" not found or invalid function name in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php:307
-Stack trace:
-#0 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
-#1 C:\xampp\htdocs\quangcao\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
-#2 C:\xampp\htdocs\quangcao\wp-admin\admin.php(259): do_action('settings_page_c...')
-#3 C:\xampp\htdocs\quangcao\wp-admin\options-general.php(10): require_once('C:\\xampp\\htdocs...')
-#4 {main}
-  thrown in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php on line 307
-[17-Nov-2022 03:14:00 UTC] PHP Warning:  Undefined variable $plugin_url in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\Controller\ChangePublishDate.php on line 29
-[17-Nov-2022 03:14:00 UTC] PHP Warning:  require_once(/inc/View/change-publish-date.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\quangcao\wp-includes\template.php on line 770
-[17-Nov-2022 03:14:00 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/inc/View/change-publish-date.php' (include_path='\xampp\php\PEAR') in C:\xampp\htdocs\quangcao\wp-includes\template.php:770
-Stack trace:
-#0 C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\Controller\ChangePublishDate.php(29): load_template('/inc/View/chang...')
-#1 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(307): ChangePublishDate\Controller\ChangePublishDate->change_publish_date_template('')
-#2 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
-#3 C:\xampp\htdocs\quangcao\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
-#4 C:\xampp\htdocs\quangcao\wp-admin\admin.php(259): do_action('settings_page_c...')
-#5 C:\xampp\htdocs\quangcao\wp-admin\options-general.php(10): require_once('C:\\xampp\\htdocs...')
-#6 {main}
-  thrown in C:\xampp\htdocs\quangcao\wp-includes\template.php on line 770
-[17-Nov-2022 03:15:42 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "show_plugin_options" not found or invalid function name in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php:307
-Stack trace:
-#0 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
-#1 C:\xampp\htdocs\quangcao\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
-#2 C:\xampp\htdocs\quangcao\wp-admin\admin.php(259): do_action('toplevel_page_p...')
+#0 C:\xampp\htdocs\quangcao\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\quangcao\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\quangcao\index.php(17): require('C:\\xampp\\htdocs...')
 #3 {main}
-  thrown in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php on line 307
-[17-Nov-2022 03:18:26 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "show_plugin_options" not found or invalid function name in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php:307
+  thrown in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\single.php on line 109
+[26-Nov-2022 01:26:52 UTC] PHP Warning:  Undefined array key 56 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[26-Nov-2022 01:26:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function render_comment_form() in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\single.php:109
 Stack trace:
-#0 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
-#1 C:\xampp\htdocs\quangcao\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
-#2 C:\xampp\htdocs\quangcao\wp-admin\admin.php(259): do_action('toplevel_page_p...')
+#0 C:\xampp\htdocs\quangcao\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\quangcao\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\quangcao\index.php(17): require('C:\\xampp\\htdocs...')
 #3 {main}
-  thrown in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php on line 307
-[17-Nov-2022 03:18:29 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "show_general_setting_page" not found or invalid function name in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php:307
+  thrown in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\single.php on line 109
+[26-Nov-2022 01:38:21 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[26-Nov-2022 01:45:19 UTC] PHP Warning:  Undefined array key 9 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[26-Nov-2022 02:27:23 UTC] PHP Warning:  Undefined array key 9 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[26-Nov-2022 02:27:39 UTC] PHP Warning:  Undefined array key 9 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[26-Nov-2022 02:27:47 UTC] PHP Warning:  Undefined array key 9 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[26-Nov-2022 02:28:18 UTC] PHP Warning:  Undefined array key 9 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[26-Nov-2022 02:28:50 UTC] PHP Warning:  Undefined array key 9 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[26-Nov-2022 02:29:32 UTC] PHP Warning:  Undefined array key 9 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[26-Nov-2022 02:29:41 UTC] PHP Warning:  Undefined array key 9 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[26-Nov-2022 02:30:42 UTC] PHP Warning:  Undefined array key 9 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[26-Nov-2022 02:31:18 UTC] PHP Warning:  Undefined array key 9 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[26-Nov-2022 02:31:36 UTC] PHP Warning:  Undefined array key 9 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[26-Nov-2022 02:31:48 UTC] PHP Warning:  Undefined array key 9 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[26-Nov-2022 02:32:17 UTC] PHP Warning:  Undefined array key 9 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[26-Nov-2022 02:32:39 UTC] PHP Warning:  Undefined array key 9 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[26-Nov-2022 02:44:49 UTC] PHP Warning:  Undefined array key 9 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[26-Nov-2022 02:55:42 UTC] PHP Warning:  Undefined array key 9 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[26-Nov-2022 02:55:44 UTC] PHP Warning:  Undefined array key 9 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[26-Nov-2022 03:04:22 UTC] PHP Warning:  Undefined array key 9 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[26-Nov-2022 03:04:26 UTC] PHP Warning:  Undefined array key 9 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[26-Nov-2022 03:04:31 UTC] PHP Warning:  Undefined array key 9 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[26-Nov-2022 03:04:43 UTC] PHP Warning:  Undefined array key 9 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[26-Nov-2022 03:04:45 UTC] PHP Warning:  Undefined array key 9 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[26-Nov-2022 03:06:00 UTC] PHP Warning:  Undefined array key 43 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[26-Nov-2022 03:06:04 UTC] PHP Warning:  Undefined array key 43 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[26-Nov-2022 03:06:16 UTC] PHP Warning:  Undefined array key 43 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[26-Nov-2022 03:06:20 UTC] PHP Warning:  Undefined array key 43 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[26-Nov-2022 03:06:45 UTC] PHP Warning:  Undefined array key 43 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[26-Nov-2022 03:06:51 UTC] PHP Warning:  Undefined array key 43 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[26-Nov-2022 03:07:17 UTC] PHP Warning:  Undefined array key 43 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[26-Nov-2022 03:07:21 UTC] PHP Warning:  Undefined array key 43 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[26-Nov-2022 03:28:22 UTC] PHP Warning:  Undefined array key 43 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[26-Nov-2022 03:32:19 UTC] PHP Warning:  Undefined array key 43 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[26-Nov-2022 03:32:26 UTC] PHP Warning:  Undefined array key 43 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[26-Nov-2022 03:32:58 UTC] PHP Warning:  Undefined array key 43 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[26-Nov-2022 03:33:00 UTC] PHP Warning:  Undefined array key 43 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[26-Nov-2022 03:33:02 UTC] PHP Warning:  Undefined array key 43 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[26-Nov-2022 03:33:05 UTC] PHP Warning:  Undefined array key 43 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[26-Nov-2022 03:33:40 UTC] PHP Warning:  Undefined array key 43 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[26-Nov-2022 03:33:42 UTC] PHP Warning:  Undefined array key 55 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[26-Nov-2022 03:35:19 UTC] PHP Warning:  Undefined array key 55 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[26-Nov-2022 03:42:37 UTC] PHP Warning:  Undefined array key 55 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 01:54:08 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 01:55:07 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 01:56:42 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 01:56:48 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 01:56:57 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 01:57:09 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 01:58:44 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 01:59:05 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 02:02:20 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 02:02:43 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 02:02:45 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 02:03:00 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 02:11:06 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 02:14:47 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 02:14:51 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 02:15:00 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 02:25:06 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 02:25:18 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 02:25:20 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 02:25:27 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 02:25:51 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 02:25:54 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 02:39:44 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 02:46:51 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 02:47:55 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 02:48:17 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 02:49:49 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 02:51:23 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 02:51:58 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 02:53:54 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 02:54:44 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 02:58:23 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 03:02:53 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 03:04:36 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 03:30:50 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 03:33:34 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 03:36:04 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 04:17:09 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 04:17:09 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\quangcao\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php on line 349
+[28-Nov-2022 04:17:09 UTC] PHP Fatal error:  Uncaught TypeError: Illegal offset type in isset or empty in C:\xampp\htdocs\quangcao\wp-content\plugins\advanced-custom-fields-pro\includes\class-acf-data.php:127
 Stack trace:
-#0 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
-#1 C:\xampp\htdocs\quangcao\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
-#2 C:\xampp\htdocs\quangcao\wp-admin\admin.php(259): do_action('plugin-options_...')
-#3 {main}
-  thrown in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php on line 307
-[17-Nov-2022 03:18:30 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "show_advanced_setting_page" not found or invalid function name in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php:307
+#0 C:\xampp\htdocs\quangcao\wp-content\plugins\advanced-custom-fields-pro\includes\local-fields.php(456): ACF_Data->is(Array)
+#1 C:\xampp\htdocs\quangcao\wp-content\plugins\advanced-custom-fields-pro\includes\local-fields.php(542): acf_is_local_field_key(Array)
+#2 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(307): _acf_apply_is_local_field_key(false, Array)
+#3 C:\xampp\htdocs\quangcao\wp-includes\plugin.php(191): WP_Hook->apply_filters(false, Array)
+#4 C:\xampp\htdocs\quangcao\wp-content\plugins\advanced-custom-fields-pro\includes\acf-field-functions.php(197): apply_filters('acf/is_field_ke...', false, Array)
+#5 C:\xampp\htdocs\quangcao\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php(138): acf_is_field_key(Array)
+#6 C:\xampp\htdocs\quangcao\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php(100): acf_maybe_get_field(Array, 1684)
+#7 C:\xampp\htdocs\quangcao\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php(425): get_field_object(Array, 1684, false)
+#8 C:\xampp\htdocs\quangcao\wp-content\plugins\diva-comment\inc\View\comment-form.php(8): have_rows(Array)
+#9 C:\xampp\htdocs\quangcao\wp-content\plugins\diva-comment\inc\Controller\DivaComment.php(20): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\quangcao\wp-includes\shortcodes.php(356): DivaComment\Controller\DivaComment->render_comment_form('', '', 'test_shortcode')
+#11 [internal function]: do_shortcode_tag(Array)
+#12 C:\xampp\htdocs\quangcao\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(test_s...', 'do_shortcode_ta...', '[test_shortcode...')
+#13 C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\single.php(106): do_shortcode('[test_shortcode...')
+#14 C:\xampp\htdocs\quangcao\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\quangcao\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\quangcao\index.php(17): require('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown in C:\xampp\htdocs\quangcao\wp-content\plugins\advanced-custom-fields-pro\includes\class-acf-data.php on line 127
+[28-Nov-2022 04:17:23 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 04:17:24 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\quangcao\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php on line 349
+[28-Nov-2022 04:17:24 UTC] PHP Fatal error:  Uncaught TypeError: Illegal offset type in isset or empty in C:\xampp\htdocs\quangcao\wp-content\plugins\advanced-custom-fields-pro\includes\class-acf-data.php:127
 Stack trace:
-#0 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
-#1 C:\xampp\htdocs\quangcao\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
-#2 C:\xampp\htdocs\quangcao\wp-admin\admin.php(259): do_action('plugin-options_...')
-#3 {main}
-  thrown in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php on line 307
-[17-Nov-2022 03:18:32 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "show_general_setting_page" not found or invalid function name in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php:307
+#0 C:\xampp\htdocs\quangcao\wp-content\plugins\advanced-custom-fields-pro\includes\local-fields.php(456): ACF_Data->is(Array)
+#1 C:\xampp\htdocs\quangcao\wp-content\plugins\advanced-custom-fields-pro\includes\local-fields.php(542): acf_is_local_field_key(Array)
+#2 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(307): _acf_apply_is_local_field_key(false, Array)
+#3 C:\xampp\htdocs\quangcao\wp-includes\plugin.php(191): WP_Hook->apply_filters(false, Array)
+#4 C:\xampp\htdocs\quangcao\wp-content\plugins\advanced-custom-fields-pro\includes\acf-field-functions.php(197): apply_filters('acf/is_field_ke...', false, Array)
+#5 C:\xampp\htdocs\quangcao\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php(138): acf_is_field_key(Array)
+#6 C:\xampp\htdocs\quangcao\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php(100): acf_maybe_get_field(Array, 1684)
+#7 C:\xampp\htdocs\quangcao\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php(425): get_field_object(Array, 1684, false)
+#8 C:\xampp\htdocs\quangcao\wp-content\plugins\diva-comment\inc\View\comment-form.php(7): have_rows(Array)
+#9 C:\xampp\htdocs\quangcao\wp-content\plugins\diva-comment\inc\Controller\DivaComment.php(20): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\quangcao\wp-includes\shortcodes.php(356): DivaComment\Controller\DivaComment->render_comment_form('', '', 'test_shortcode')
+#11 [internal function]: do_shortcode_tag(Array)
+#12 C:\xampp\htdocs\quangcao\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(test_s...', 'do_shortcode_ta...', '[test_shortcode...')
+#13 C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\single.php(106): do_shortcode('[test_shortcode...')
+#14 C:\xampp\htdocs\quangcao\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\quangcao\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\quangcao\index.php(17): require('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown in C:\xampp\htdocs\quangcao\wp-content\plugins\advanced-custom-fields-pro\includes\class-acf-data.php on line 127
+[28-Nov-2022 04:19:16 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 04:19:16 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\quangcao\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php on line 349
+[28-Nov-2022 04:19:16 UTC] PHP Fatal error:  Uncaught TypeError: Illegal offset type in isset or empty in C:\xampp\htdocs\quangcao\wp-content\plugins\advanced-custom-fields-pro\includes\class-acf-data.php:127
 Stack trace:
-#0 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
-#1 C:\xampp\htdocs\quangcao\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
-#2 C:\xampp\htdocs\quangcao\wp-admin\admin.php(259): do_action('plugin-options_...')
-#3 {main}
-  thrown in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php on line 307
-[17-Nov-2022 03:18:32 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "show_plugin_options" not found or invalid function name in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php:307
-Stack trace:
-#0 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
-#1 C:\xampp\htdocs\quangcao\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
-#2 C:\xampp\htdocs\quangcao\wp-admin\admin.php(259): do_action('toplevel_page_p...')
-#3 {main}
-  thrown in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php on line 307
-[17-Nov-2022 03:19:37 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ChangePublishDate\Controller\ChangePublishDate does not have a method "add_admin_submenu" in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php:307
-Stack trace:
-#0 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
-#1 C:\xampp\htdocs\quangcao\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
-#2 C:\xampp\htdocs\quangcao\wp-admin\includes\menu.php(155): do_action('admin_menu', '')
-#3 C:\xampp\htdocs\quangcao\wp-admin\menu.php(394): require_once('C:\\xampp\\htdocs...')
-#4 C:\xampp\htdocs\quangcao\wp-admin\admin.php(158): require('C:\\xampp\\htdocs...')
-#5 C:\xampp\htdocs\quangcao\wp-admin\plugins.php(10): require_once('C:\\xampp\\htdocs...')
-#6 {main}
-  thrown in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php on line 307
-[17-Nov-2022 03:19:45 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ChangePublishDate\Controller\ChangePublishDate does not have a method "add_admin_submenu" in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php:307
-Stack trace:
-#0 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
-#1 C:\xampp\htdocs\quangcao\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
-#2 C:\xampp\htdocs\quangcao\wp-admin\includes\menu.php(155): do_action('admin_menu', '')
-#3 C:\xampp\htdocs\quangcao\wp-admin\menu.php(394): require_once('C:\\xampp\\htdocs...')
-#4 C:\xampp\htdocs\quangcao\wp-admin\admin.php(158): require('C:\\xampp\\htdocs...')
-#5 {main}
-  thrown in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php on line 307
-[17-Nov-2022 03:19:54 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "show_plugin_options" not found or invalid function name in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php:307
-Stack trace:
-#0 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
-#1 C:\xampp\htdocs\quangcao\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
-#2 C:\xampp\htdocs\quangcao\wp-admin\admin.php(259): do_action('toplevel_page_p...')
-#3 {main}
-  thrown in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php on line 307
-[17-Nov-2022 03:26:03 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "show_plugin_options" not found or invalid function name in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php:307
-Stack trace:
-#0 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
-#1 C:\xampp\htdocs\quangcao\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
-#2 C:\xampp\htdocs\quangcao\wp-admin\admin.php(259): do_action('toplevel_page_p...')
-#3 {main}
-  thrown in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php on line 307
-[17-Nov-2022 03:26:27 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "show_plugin_options" not found or invalid function name in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php:307
-Stack trace:
-#0 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
-#1 C:\xampp\htdocs\quangcao\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
-#2 C:\xampp\htdocs\quangcao\wp-admin\admin.php(259): do_action('toplevel_page_p...')
-#3 {main}
-  thrown in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php on line 307
-[17-Nov-2022 03:26:37 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "show_plugin_options" not found or invalid function name in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php:307
-Stack trace:
-#0 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
-#1 C:\xampp\htdocs\quangcao\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
-#2 C:\xampp\htdocs\quangcao\wp-admin\admin.php(259): do_action('toplevel_page_p...')
-#3 {main}
-  thrown in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php on line 307
-[17-Nov-2022 03:26:39 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "show_plugin_options" not found or invalid function name in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php:307
-Stack trace:
-#0 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
-#1 C:\xampp\htdocs\quangcao\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
-#2 C:\xampp\htdocs\quangcao\wp-admin\admin.php(259): do_action('toplevel_page_p...')
-#3 {main}
-  thrown in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php on line 307
-[17-Nov-2022 04:44:16 UTC] PHP Warning:  Undefined variable $plugin_url in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\Controller\ChangePublishDate.php on line 34
-[17-Nov-2022 04:44:16 UTC] PHP Warning:  include(/inc/View/change-publish-date.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\Controller\ChangePublishDate.php on line 34
-[17-Nov-2022 04:44:16 UTC] PHP Warning:  include(): Failed opening '/inc/View/change-publish-date.php' for inclusion (include_path='\xampp\php\PEAR') in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\Controller\ChangePublishDate.php on line 34
-[17-Nov-2022 04:44:31 UTC] PHP Warning:  include(): https:// wrapper is disabled in the server configuration by allow_url_include=0 in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\Controller\ChangePublishDate.php on line 35
-[17-Nov-2022 04:44:31 UTC] PHP Warning:  include(https://localhost/quangcao/wp-content/plugins/change-publish-date/inc/Controller//inc/View/change-publish-date.php): Failed to open stream: no suitable wrapper could be found in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\Controller\ChangePublishDate.php on line 35
-[17-Nov-2022 04:44:31 UTC] PHP Warning:  include(): Failed opening 'https://localhost/quangcao/wp-content/plugins/change-publish-date/inc/Controller//inc/View/change-publish-date.php' for inclusion (include_path='\xampp\php\PEAR') in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\Controller\ChangePublishDate.php on line 35
-[17-Nov-2022 04:44:50 UTC] PHP Warning:  include(): https:// wrapper is disabled in the server configuration by allow_url_include=0 in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\Controller\ChangePublishDate.php on line 35
-[17-Nov-2022 04:44:50 UTC] PHP Warning:  include(https://localhost/quangcao/wp-content/plugins/change-publish-date/inc/Controller//inc/View/change-publish-date.php/): Failed to open stream: no suitable wrapper could be found in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\Controller\ChangePublishDate.php on line 35
-[17-Nov-2022 04:44:50 UTC] PHP Warning:  include(): Failed opening 'https://localhost/quangcao/wp-content/plugins/change-publish-date/inc/Controller//inc/View/change-publish-date.php/' for inclusion (include_path='\xampp\php\PEAR') in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\Controller\ChangePublishDate.php on line 35
-[17-Nov-2022 04:45:18 UTC] PHP Warning:  include(): https:// wrapper is disabled in the server configuration by allow_url_include=0 in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\Controller\ChangePublishDate.php on line 35
-[17-Nov-2022 04:45:18 UTC] PHP Warning:  include(https://localhost/quangcao/wp-content/plugins/change-publish-date/inc/Controller//../View/change-publish-date.php/): Failed to open stream: no suitable wrapper could be found in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\Controller\ChangePublishDate.php on line 35
-[17-Nov-2022 04:45:18 UTC] PHP Warning:  include(): Failed opening 'https://localhost/quangcao/wp-content/plugins/change-publish-date/inc/Controller//../View/change-publish-date.php/' for inclusion (include_path='\xampp\php\PEAR') in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\Controller\ChangePublishDate.php on line 35
-[17-Nov-2022 04:45:27 UTC] PHP Warning:  include(): https:// wrapper is disabled in the server configuration by allow_url_include=0 in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\Controller\ChangePublishDate.php on line 35
-[17-Nov-2022 04:45:27 UTC] PHP Warning:  include(https://localhost/quangcao/wp-content/plugins/change-publish-date/inc/Controller/../../View/change-publish-date.php/): Failed to open stream: no suitable wrapper could be found in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\Controller\ChangePublishDate.php on line 35
-[17-Nov-2022 04:45:27 UTC] PHP Warning:  include(): Failed opening 'https://localhost/quangcao/wp-content/plugins/change-publish-date/inc/Controller/../../View/change-publish-date.php/' for inclusion (include_path='\xampp\php\PEAR') in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\Controller\ChangePublishDate.php on line 35
-[17-Nov-2022 04:45:28 UTC] PHP Warning:  include(): https:// wrapper is disabled in the server configuration by allow_url_include=0 in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\Controller\ChangePublishDate.php on line 35
-[17-Nov-2022 04:45:28 UTC] PHP Warning:  include(https://localhost/quangcao/wp-content/plugins/change-publish-date/inc/Controller/../../View/change-publish-date.php/): Failed to open stream: no suitable wrapper could be found in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\Controller\ChangePublishDate.php on line 35
-[17-Nov-2022 04:45:28 UTC] PHP Warning:  include(): Failed opening 'https://localhost/quangcao/wp-content/plugins/change-publish-date/inc/Controller/../../View/change-publish-date.php/' for inclusion (include_path='\xampp\php\PEAR') in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\Controller\ChangePublishDate.php on line 35
-[17-Nov-2022 04:47:45 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function plugin_dir_path(), 0 passed in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\Controller\ChangePublishDate.php on line 34 and exactly 1 expected in C:\xampp\htdocs\quangcao\wp-includes\plugin.php:782
-Stack trace:
-#0 C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\Controller\ChangePublishDate.php(34): plugin_dir_path()
-#1 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(307): ChangePublishDate\Controller\ChangePublishDate->show_plugin_options('')
-#2 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
-#3 C:\xampp\htdocs\quangcao\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
-#4 C:\xampp\htdocs\quangcao\wp-admin\admin.php(259): do_action('toplevel_page_c...')
-#5 {main}
-  thrown in C:\xampp\htdocs\quangcao\wp-includes\plugin.php on line 782
-[17-Nov-2022 06:57:10 UTC] PHP Warning:  Undefined variable $paged in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\View\change-publish-date.php on line 12
-[17-Nov-2022 06:57:38 UTC] PHP Warning:  Undefined variable $paged in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\View\change-publish-date.php on line 12
-[17-Nov-2022 06:57:40 UTC] PHP Warning:  Undefined variable $paged in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\View\change-publish-date.php on line 12
-[17-Nov-2022 06:58:16 UTC] PHP Warning:  Undefined variable $paged in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\View\change-publish-date.php on line 8
-[17-Nov-2022 06:59:33 UTC] PHP Warning:  Undefined variable $paged in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\View\change-publish-date.php on line 8
-[17-Nov-2022 06:59:41 UTC] PHP Warning:  Undefined variable $paged in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\View\change-publish-date.php on line 8
-[17-Nov-2022 06:59:44 UTC] PHP Warning:  Undefined variable $paged in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\View\change-publish-date.php on line 8
-[17-Nov-2022 07:18:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_post_status() in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\View\change-publish-date.php:38
-Stack trace:
-#0 C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\Controller\ChangePublishDate.php(32): require()
-#1 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(307): ChangePublishDate\Controller\ChangePublishDate->show_plugin_options('')
-#2 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
-#3 C:\xampp\htdocs\quangcao\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
-#4 C:\xampp\htdocs\quangcao\wp-admin\admin.php(259): do_action('toplevel_page_c...')
-#5 {main}
-  thrown in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\View\change-publish-date.php on line 38
-[17-Nov-2022 07:42:25 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\View\change-publish-date.php on line 39
-[17-Nov-2022 07:42:25 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\View\change-publish-date.php on line 39
-[17-Nov-2022 07:42:25 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\View\change-publish-date.php on line 39
-[17-Nov-2022 07:42:25 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\View\change-publish-date.php on line 39
-[17-Nov-2022 07:42:25 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\View\change-publish-date.php on line 39
-[17-Nov-2022 07:42:25 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\View\change-publish-date.php on line 39
-[17-Nov-2022 07:42:25 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\View\change-publish-date.php on line 39
-[17-Nov-2022 07:42:25 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\View\change-publish-date.php on line 39
-[17-Nov-2022 07:42:25 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\View\change-publish-date.php on line 39
-[17-Nov-2022 07:42:25 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\View\change-publish-date.php on line 39
-[17-Nov-2022 07:43:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function post_status() in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\View\change-publish-date.php:39
-Stack trace:
-#0 C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\Controller\ChangePublishDate.php(32): require()
-#1 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(307): ChangePublishDate\Controller\ChangePublishDate->show_plugin_options('')
-#2 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
-#3 C:\xampp\htdocs\quangcao\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
-#4 C:\xampp\htdocs\quangcao\wp-admin\admin.php(259): do_action('toplevel_page_c...')
-#5 {main}
-  thrown in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\View\change-publish-date.php on line 39
-[17-Nov-2022 07:43:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function post_status() in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\View\change-publish-date.php:39
-Stack trace:
-#0 C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\Controller\ChangePublishDate.php(32): require()
-#1 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(307): ChangePublishDate\Controller\ChangePublishDate->show_plugin_options('')
-#2 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
-#3 C:\xampp\htdocs\quangcao\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
-#4 C:\xampp\htdocs\quangcao\wp-admin\admin.php(259): do_action('toplevel_page_c...')
-#5 {main}
-  thrown in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\View\change-publish-date.php on line 39
-[17-Nov-2022 07:47:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function post_status() in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\View\change-publish-date.php:39
-Stack trace:
-#0 C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\Controller\ChangePublishDate.php(32): require()
-#1 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(307): ChangePublishDate\Controller\ChangePublishDate->show_plugin_options('')
-#2 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
-#3 C:\xampp\htdocs\quangcao\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
-#4 C:\xampp\htdocs\quangcao\wp-admin\admin.php(259): do_action('toplevel_page_c...')
-#5 {main}
-  thrown in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\View\change-publish-date.php on line 39
-[17-Nov-2022 07:47:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function post_status() in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\View\change-publish-date.php:39
-Stack trace:
-#0 C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\Controller\ChangePublishDate.php(32): require()
-#1 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(307): ChangePublishDate\Controller\ChangePublishDate->show_plugin_options('')
-#2 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
-#3 C:\xampp\htdocs\quangcao\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
-#4 C:\xampp\htdocs\quangcao\wp-admin\admin.php(259): do_action('toplevel_page_c...')
-#5 {main}
-  thrown in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\View\change-publish-date.php on line 39
-[17-Nov-2022 07:47:34 UTC] PHP Warning:  Undefined array key "paged" in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\View\change-publish-date.php on line 59
-[17-Nov-2022 08:12:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function current_date() in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\View\change-publish-date.php:53
-Stack trace:
-#0 C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\Controller\ChangePublishDate.php(32): require()
-#1 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(307): ChangePublishDate\Controller\ChangePublishDate->show_plugin_options('')
-#2 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
-#3 C:\xampp\htdocs\quangcao\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
-#4 C:\xampp\htdocs\quangcao\wp-admin\admin.php(259): do_action('toplevel_page_c...')
-#5 {main}
-  thrown in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\View\change-publish-date.php on line 53
-[17-Nov-2022 08:12:51 UTC] PHP Fatal error:  Uncaught ArgumentCountError: date() expects at least 1 argument, 0 given in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\View\change-publish-date.php:53
-Stack trace:
-#0 C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\View\change-publish-date.php(53): date()
-#1 C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\Controller\ChangePublishDate.php(32): require('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(307): ChangePublishDate\Controller\ChangePublishDate->show_plugin_options('')
-#3 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
-#4 C:\xampp\htdocs\quangcao\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
-#5 C:\xampp\htdocs\quangcao\wp-admin\admin.php(259): do_action('toplevel_page_c...')
-#6 {main}
-  thrown in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\View\change-publish-date.php on line 53
-[17-Nov-2022 08:12:52 UTC] PHP Fatal error:  Uncaught ArgumentCountError: date() expects at least 1 argument, 0 given in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\View\change-publish-date.php:53
-Stack trace:
-#0 C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\View\change-publish-date.php(53): date()
-#1 C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\Controller\ChangePublishDate.php(32): require('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(307): ChangePublishDate\Controller\ChangePublishDate->show_plugin_options('')
-#3 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
-#4 C:\xampp\htdocs\quangcao\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
-#5 C:\xampp\htdocs\quangcao\wp-admin\admin.php(259): do_action('toplevel_page_c...')
-#6 {main}
-  thrown in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\View\change-publish-date.php on line 53
-[17-Nov-2022 08:13:22 UTC] PHP Fatal error:  Uncaught ArgumentCountError: date() expects at least 1 argument, 0 given in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\View\change-publish-date.php:53
-Stack trace:
-#0 C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\View\change-publish-date.php(53): date()
-#1 C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\Controller\ChangePublishDate.php(32): require('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(307): ChangePublishDate\Controller\ChangePublishDate->show_plugin_options('')
-#3 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
-#4 C:\xampp\htdocs\quangcao\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
-#5 C:\xampp\htdocs\quangcao\wp-admin\admin.php(259): do_action('toplevel_page_c...')
-#6 {main}
-  thrown in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\View\change-publish-date.php on line 53
-[17-Nov-2022 08:13:24 UTC] PHP Fatal error:  Uncaught ArgumentCountError: date() expects at least 1 argument, 0 given in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\View\change-publish-date.php:53
-Stack trace:
-#0 C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\View\change-publish-date.php(53): date()
-#1 C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\Controller\ChangePublishDate.php(32): require('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(307): ChangePublishDate\Controller\ChangePublishDate->show_plugin_options('')
-#3 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
-#4 C:\xampp\htdocs\quangcao\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
-#5 C:\xampp\htdocs\quangcao\wp-admin\admin.php(259): do_action('toplevel_page_c...')
-#6 {main}
-  thrown in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\View\change-publish-date.php on line 53
-[18-Nov-2022 01:34:38 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "diva_change_post_publish_date" not found or invalid function name in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php:307
-Stack trace:
-#0 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
-#1 C:\xampp\htdocs\quangcao\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
-#2 C:\xampp\htdocs\quangcao\wp-admin\admin-ajax.php(187): do_action('wp_ajax_diva_ch...')
-#3 {main}
-  thrown in C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php on line 307
-[18-Nov-2022 01:53:15 UTC] PHP Fatal error:  Uncaught ArgumentCountError: date() expects at least 1 argument, 0 given in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\View\change-publish-date.php:53
-Stack trace:
-#0 C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\View\change-publish-date.php(53): date()
-#1 C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\Controller\ChangePublishDate.php(34): require('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(307): ChangePublishDate\Controller\ChangePublishDate->show_plugin_options('')
-#3 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
-#4 C:\xampp\htdocs\quangcao\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
-#5 C:\xampp\htdocs\quangcao\wp-admin\admin.php(259): do_action('toplevel_page_c...')
-#6 {main}
-  thrown in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\View\change-publish-date.php on line 53
-[18-Nov-2022 02:08:18 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\Controller\ChangePublishDate.php on line 39
-[18-Nov-2022 02:08:23 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\Controller\ChangePublishDate.php on line 39
-[18-Nov-2022 02:19:49 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in C:\xampp\htdocs\quangcao\wp-content\plugins\change-publish-date\inc\Controller\ChangePublishDate.php on line 39
+#0 C:\xampp\htdocs\quangcao\wp-content\plugins\advanced-custom-fields-pro\includes\local-fields.php(456): ACF_Data->is(Array)
+#1 C:\xampp\htdocs\quangcao\wp-content\plugins\advanced-custom-fields-pro\includes\local-fields.php(542): acf_is_local_field_key(Array)
+#2 C:\xampp\htdocs\quangcao\wp-includes\class-wp-hook.php(307): _acf_apply_is_local_field_key(false, Array)
+#3 C:\xampp\htdocs\quangcao\wp-includes\plugin.php(191): WP_Hook->apply_filters(false, Array)
+#4 C:\xampp\htdocs\quangcao\wp-content\plugins\advanced-custom-fields-pro\includes\acf-field-functions.php(197): apply_filters('acf/is_field_ke...', false, Array)
+#5 C:\xampp\htdocs\quangcao\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php(138): acf_is_field_key(Array)
+#6 C:\xampp\htdocs\quangcao\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php(100): acf_maybe_get_field(Array, 1684)
+#7 C:\xampp\htdocs\quangcao\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php(425): get_field_object(Array, 1684, false)
+#8 C:\xampp\htdocs\quangcao\wp-content\plugins\diva-comment\inc\View\comment-form.php(7): have_rows(Array)
+#9 C:\xampp\htdocs\quangcao\wp-content\plugins\diva-comment\inc\Controller\DivaComment.php(20): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\quangcao\wp-includes\shortcodes.php(356): DivaComment\Controller\DivaComment->render_comment_form('', '', 'test_shortcode')
+#11 [internal function]: do_shortcode_tag(Array)
+#12 C:\xampp\htdocs\quangcao\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(test_s...', 'do_shortcode_ta...', '[test_shortcode...')
+#13 C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\single.php(106): do_shortcode('[test_shortcode...')
+#14 C:\xampp\htdocs\quangcao\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\quangcao\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\quangcao\index.php(17): require('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown in C:\xampp\htdocs\quangcao\wp-content\plugins\advanced-custom-fields-pro\includes\class-acf-data.php on line 127
+[28-Nov-2022 04:20:11 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 04:20:11 UTC] PHP Warning:  Undefined variable $comments in C:\xampp\htdocs\quangcao\wp-content\plugins\diva-comment\inc\View\comment-form.php on line 7
+[28-Nov-2022 04:20:35 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 04:27:02 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 04:48:20 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 04:49:08 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 04:49:27 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 04:49:53 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 04:50:08 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 07:28:58 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 07:32:21 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 07:33:45 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 07:35:36 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 07:36:13 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 07:37:47 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 07:38:09 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 07:38:13 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 07:38:15 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 07:38:24 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 07:38:59 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 07:40:03 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 07:40:10 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 07:40:33 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 07:40:36 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[28-Nov-2022 07:40:39 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[02-Dec-2022 08:43:20 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[02-Dec-2022 08:46:43 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[02-Dec-2022 08:47:03 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[02-Dec-2022 08:47:29 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[02-Dec-2022 08:47:31 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[02-Dec-2022 08:47:39 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34
+[02-Dec-2022 08:47:41 UTC] PHP Warning:  Undefined array key 50 in C:\xampp\htdocs\quangcao\wp-content\themes\tapchi\inc\breadcrumb.php on line 34

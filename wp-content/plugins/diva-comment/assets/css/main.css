@@ -1,0 +1,13 @@
+#diva_comment_form {
+    display: flex;
+    flex-direction: column;
+}
+#diva_comment_form #comment_name{
+    max-width: 350px;
+}
+#diva_comment_form textarea {
+    padding: 15px 15px 15px 10px;
+}
+#diva_comment_form input {
+    padding: 4px 0px 4px 10px;
+}
