@@ -17,6 +17,7 @@ jQuery(document).ready(function () {
                 action: "diva_comment_submit",
             },
             success: function (response) {
+                alert("Cảm ơn bạn đã gửi câu hỏi, chúng tôi sẽ xét duyệt nội dung và trả lời bạn trong thời gian sớm nhất.");
                 location.reload();
             },
             error: function (jqXHR, textStatus, errorThrown) {

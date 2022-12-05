@@ -1,6 +1,7 @@
 #diva_comment_form {
     display: flex;
     flex-direction: column;
+    margin-bottom: 30px;
 }
 #diva_comment_form #comment_name{
     max-width: 350px;
@@ -10,4 +11,45 @@
 }
 #diva_comment_form input {
     padding: 4px 0px 4px 10px;
+}
+.tc-comment-answer {
+    margin-top: 20px;
+    padding: 20px 0px 20px 20px;
+    border: 1px solid #ececec;
+}
+.tc-comment-wrapper {
+    margin-bottom: 30px;
+}
+#comment_submit_btn {
+    width: 100px;
+    padding: 7px 10px;
+    border: 2px solid #1c68a8;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #fff;
+    color: #1c68a8;
+    transition: .5s;
+}
+#comment_submit_btn:hover {
+    background: #1c68a8;
+    color:#fff;
+}
+.user_comment_name {
+    color: #1c68a8;
+    text-transform: uppercase;
+}
+.admin-name {
+    padding: 3px;
+    background-color: #1c68a8;
+    color: #fff;
+    font-size: 14px;
+}
+#diva_comment_form textarea, #diva_comment_form input {
+    outline: none;
+    padding: 15px;
+    background: #f0f3f4;
+    color: #000;
+    border: 1px solid #80808047;
+    font-weight: 600;
+    margin-bottom: 20px;
 }
